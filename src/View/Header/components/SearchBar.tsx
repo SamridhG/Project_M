@@ -6,7 +6,7 @@ function SearchBar({isVisibileSiderBar,setVisibilitySideBar}:SearchBarProps) {
   return (
    <div className="flex items-center space-x-4">
    { !isVisibileSiderBar &&
-    <button className="w-10 h-10  rounded-md flex items-center justify-center cursor-pointer" onClick={
+    <button className="w-10 h-10 bg-[#5030e5] rounded-md flex items-center justify-center cursor-pointer" onClick={
         ()=>{setVisibilitySideBar(true)}
     }>
             <img src="/images/Hamburger.svg" alt="Menu" className="w-5 h-5" />
